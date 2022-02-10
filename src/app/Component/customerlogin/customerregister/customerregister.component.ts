@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Customer} from "../../../Model/Customer";
 
 @Component({
   selector: 'app-customerregister',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CustomerregisterComponent implements OnInit {
 
+  // @ts-ignore
+  customer:Customer;
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }
