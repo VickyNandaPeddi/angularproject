@@ -16,6 +16,7 @@ import { RecognitionsApprovalsComponent } from './Component/homepage/recognition
 import { ContentComponent } from './Component/homepage/content/content.component';
 import { TechnicalcapabilitesComponent } from './Component/homepage/technicalcapabilites/technicalcapabilites.component';
 import { ContactdetailsComponent } from './Component/homepage/contactdetails/contactdetails.component';
+import { CustomerregisterComponent } from './Component/customerlogin/customerregister/customerregister.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { ContactdetailsComponent } from './Component/homepage/contactdetails/con
     ContentComponent,
     TechnicalcapabilitesComponent,
     ContactdetailsComponent,
+    CustomerregisterComponent,
   ],
   imports: [
     BrowserModule,

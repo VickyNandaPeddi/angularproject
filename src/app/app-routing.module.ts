@@ -11,6 +11,7 @@ import {TechnicalcapabilitesComponent} from "./Component/homepage/technicalcapab
 import {RecognitionsApprovalsComponent} from "./Component/homepage/recognitions-approvals/recognitions-approvals.component";
 import {ContentComponent} from "./Component/homepage/content/content.component";
 import {ContactdetailsComponent} from "./Component/homepage/contactdetails/contactdetails.component";
+import {CustomerregisterComponent} from "./Component/customerlogin/customerregister/customerregister.component";
 
 const routes: Routes = [
   {
@@ -56,7 +57,9 @@ const routes: Routes = [
   {
     path: "customer", component: CustomerloginComponent, pathMatch: "full"
   }
-  ,
+  , {
+    path: "customerregister", component: CustomerregisterComponent, pathMatch: "full"
+  }
 
 ];
 
